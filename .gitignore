@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and secrets
+.venv/
+venv/
+.env
+.env.*
+
+# Local data and exports (do not publish student-level records)
+data/
+dataset/
+*.csv
+*.zip
+
+# Notebook checkpoints and local runtime state
+.ipynb_checkpoints/
+*.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
